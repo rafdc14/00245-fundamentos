@@ -10,9 +10,15 @@ public class Aula01
         VariaveisETiposDeDados variaveisETiposDeDados = new VariaveisETiposDeDados();
         variaveisETiposDeDados.Executar();
         Console.WriteLine(); //criar espaço no programa para as linhas não ficarem juntas
+        
         //operadores aritmeticos
         OperadoresAritmeticos operadoresAritmeticos = new OperadoresAritmeticos();
         operadoresAritmeticos.Executar();
+        Console.WriteLine();
+        
+        //operadores de comparação
+        OperadoresDeComparacao operadoresDeComparacao = new OperadoresDeComparacao();
+        operadoresDeComparacao.Executar();
 
         
 
