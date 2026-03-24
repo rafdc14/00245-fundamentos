@@ -1,4 +1,4 @@
-namespace Fundamentos01;
+namespace Fundamentos;
 
 
 public class OperadoresDeComparacao

@@ -1,4 +1,4 @@
-namespace Fundamentos01;
+namespace Fundamentos;
 
 public class Aula01
 {
@@ -25,6 +25,9 @@ public class Aula01
         OperadoresLogicos operadoresLogicos = new OperadoresLogicos();
         operadoresLogicos.Executar();
         Console.WriteLine();
+
+        //Exercicio 01
+        
 
         
 
