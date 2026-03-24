@@ -8,7 +8,12 @@ public class Aula01
         //inicio
         this.ExibirCabecalho();
         VariaveisETiposDeDados variaveisETiposDeDados = new VariaveisETiposDeDados();
-        variaveisETiposDeDados.Executar();   
+        variaveisETiposDeDados.Executar();
+        Console.WriteLine(); //criar espaço no programa para as linhas não ficarem juntas
+        //operadores aritmeticos
+        OperadoresAritmeticos operadoresAritmeticos = new OperadoresAritmeticos();
+        operadoresAritmeticos.Executar();
+
         
 
         //fim
