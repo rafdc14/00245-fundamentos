@@ -14,7 +14,7 @@ public class OperadoresLogicos
         Console.WriteLine($"Tem Carta ? {temCarta}");
         Console.WriteLine();
         Console.WriteLine($"Pode conduzir? (temIdade e Carta) -> {temIdade && temCarta} (AND)");
-        Console.WriteLine($"Pode tentar tirar? (temIdade OU Catra) -> {temIdade || temCarta} (OR)");
+        Console.WriteLine($"Pode tentar tirar? (temIdade OU Carta) -> {temIdade || temCarta} (OR)");
         Console.WriteLine($"Não tem idade? (!temIdade) -> {!temIdade} (NOT)");
         
     }

@@ -15,7 +15,7 @@ public class VariaveisETiposDeDados
         float media = 1950;
         char letra = 'A';
         string nome = "Ricardo";
-        string nomeComposto = nome + "Costa";//concatenação
+        string nomeComposto = nome + " Costa";//concatenação
         bool estudante = true;
 
 

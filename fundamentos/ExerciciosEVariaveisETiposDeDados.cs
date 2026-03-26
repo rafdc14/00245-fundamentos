@@ -20,7 +20,7 @@ namespace Fundamentos;
     /// Demonstração adicional:
     /// - Conhecer outros tipos: double (decimais), char (um caractere), decimal (precisão monetária)
     /// </summary>
-    public class ExerciciosVariaveisETiposDeDados
+    public class ExerciciosEVariaveisETiposDeDados
     {
         public void Executar()
         {
@@ -35,7 +35,7 @@ namespace Fundamentos;
             // int → guarda números inteiros
             // bool → guarda verdadeiro (true) ou falso (false)
             Console.WriteLine("📝 Exercício 1: Variáveis básicas");
- 
+                
        
  
             // ===================================================
@@ -45,7 +45,7 @@ namespace Fundamentos;
             // A mesma variável pode guardar um valor diferente mais tarde
             Console.WriteLine("📝 Exercício 2: Reatribuição de valores");
  
-         
+            
  
             // ===================================================
             // EXERCÍCIO 3: Tipo object (equivalente ao any)

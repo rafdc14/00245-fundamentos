@@ -1,8 +1,9 @@
+using FundamentosAlgoritmia;
+
 namespace Fundamentos;
 
 public class Aula01
 {
-      
     public void ExecutarAula()
     {
         //inicio
@@ -27,9 +28,27 @@ public class Aula01
         Console.WriteLine();
 
         //Exercicio 01
-        
+        //Exercicio01 exercicio01 = new Exercicio01();
+        //exercicio01.Executar();
+        //Console.WriteLine();
 
-        
+        //Exercicio 02
+        //Exercicio02 exercicio02 = new Exercicio02();
+        //exercicio02.Executar();
+        //Console.WriteLine();
+
+        //Exercicio 03
+        //Exercicio03 exercicio03 = new Exercicio03();
+        //exercicio03.Executar();
+        //Console.WriteLine();
+
+        ExerciciosEVariaveisETiposDeDados exerciciosEVariaveisETiposDeDados = new ExerciciosEVariaveisETiposDeDados();
+        exerciciosEVariaveisETiposDeDados.Executar();
+        Console.WriteLine();
+
+        AlunoOperadoresLogicos alunoOperadoresLogicos = new AlunoOperadoresLogicos();
+        alunoOperadoresLogicos.Executar();
+        Console.WriteLine();
 
         //fim
         this.ResumoAula();
