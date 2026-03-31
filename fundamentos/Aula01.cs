@@ -1,3 +1,4 @@
+using ExerciciosAula03;
 using FundamentosAlgoritmia;
 
 namespace Fundamentos;
@@ -42,14 +43,28 @@ public class Aula01
         //exercicio03.Executar();
         //Console.WriteLine();
 
-        ExerciciosEVariaveisETiposDeDados exerciciosEVariaveisETiposDeDados = new ExerciciosEVariaveisETiposDeDados();
-        exerciciosEVariaveisETiposDeDados.Executar();
+        //ExerciciosEVariaveisETiposDeDados exerciciosEVariaveisETiposDeDados = new ExerciciosEVariaveisETiposDeDados();
+        //exerciciosEVariaveisETiposDeDados.Executar();
+        //Console.WriteLine();
+
+        //ExerciciosOperadoresLogicos exerciciosOperadoresLogicos = new ExerciciosOperadoresLogicos();
+        //exerciciosOperadoresLogicos.Executar();
+        //Console.WriteLine();
+
+        //Estruturas de controle básicas
+        EstruturaControleBasicas estruturaControleBasicas = new EstruturaControleBasicas();
+        estruturaControleBasicas.ExecutarIfElse();
+        estruturaControleBasicas.ExecutarSwitchCase();
+        estruturaControleBasicas.ExecutarTernario();
         Console.WriteLine();
 
-        AlunoOperadoresLogicos alunoOperadoresLogicos = new AlunoOperadoresLogicos();
-        alunoOperadoresLogicos.Executar();
+        //Exercicios Aula 03
+        AlunoCondicionais alunoCondicionais = new AlunoCondicionais();
+        alunoCondicionais.Executar();
         Console.WriteLine();
 
+
+        
         //fim
         this.ResumoAula();
 

@@ -35,7 +35,7 @@ namespace FundamentosAlgoritmia;
  
  
  
-public class AlunoOperadoresLogicos
+public class ExerciciosOperadoresLogicos
 {
   public void Executar()
   {
