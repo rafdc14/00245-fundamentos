@@ -2,7 +2,7 @@ namespace Fundamentos;
 
 public class Exercicio01
 {
-    public void Executar()
+    public void Executar()//colocar no separador da aula01 como new
     {
         Console.WriteLine("\n📋 1. EXERCÍCIOS DE VARIÁVEIS E TIPOS DE DADOS");
         Console.WriteLine("=============================================\n");

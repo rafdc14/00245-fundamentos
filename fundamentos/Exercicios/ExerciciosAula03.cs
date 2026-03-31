@@ -143,10 +143,9 @@ namespace ExerciciosAula03
             // ESCREVA SEU CÓDIGO AQUI
             //definir username e password corretos
             string usernemeCorreto = "zédascouves";
-            string passwordCorreta = "adorobananas";
+            string passwordCorreta = "adoromaçâs";
 
             //solicitar username e password
-            Console.Write("Userneme: ");
             string username = Console.ReadLine();
 
             Console.Write("Password: ");

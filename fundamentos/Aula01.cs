@@ -28,6 +28,17 @@ public class Aula01
         operadoresLogicos.Executar();
         Console.WriteLine();
 
+        //Estruturas de controle básicas
+        EstruturaControleBasicas estruturaControleBasicas = new EstruturaControleBasicas();
+        estruturaControleBasicas.ExecutarIfElse();
+        estruturaControleBasicas.ExecutarSwitchCase();
+        estruturaControleBasicas.ExecutarTernario();
+        Console.WriteLine();
+
+        // ExerciciosEVariaveisETiposDeDados exerciciosEVariaveisETiposDeDados = new ExerciciosEVariaveisETiposDeDados();
+        // exerciciosEVariaveisETiposDeDados.Executar();
+        // Console.WriteLine();
+
         //Exercicio 01
         //Exercicio01 exercicio01 = new Exercicio01();
         //exercicio01.Executar();
@@ -43,25 +54,39 @@ public class Aula01
         //exercicio03.Executar();
         //Console.WriteLine();
 
-        //ExerciciosEVariaveisETiposDeDados exerciciosEVariaveisETiposDeDados = new ExerciciosEVariaveisETiposDeDados();
-        //exerciciosEVariaveisETiposDeDados.Executar();
-        //Console.WriteLine();
+        // ExerciciosOperadoresAritmeticos exerciciosOperadoresAritmeticos = new ExerciciosOperadoresAritmeticos();
+        // exerciciosOperadoresAritmeticos.Executar();
+        // Console.WriteLine();
 
-        //ExerciciosOperadoresLogicos exerciciosOperadoresLogicos = new ExerciciosOperadoresLogicos();
-        //exerciciosOperadoresLogicos.Executar();
-        //Console.WriteLine();
+        // ExercicioAritmeticos01 exercicioAritmeticos01 = new ExercicioAritmeticos01();
+        // exercicioAritmeticos01.Executar();
+        // Console.WriteLine();
 
-        //Estruturas de controle básicas
-        EstruturaControleBasicas estruturaControleBasicas = new EstruturaControleBasicas();
-        estruturaControleBasicas.ExecutarIfElse();
-        estruturaControleBasicas.ExecutarSwitchCase();
-        estruturaControleBasicas.ExecutarTernario();
+        // ExercicioAritmeticos02 exercicioAritmeticos02 = new ExercicioAritmeticos02();
+        // exercicioAritmeticos02.Executar();
+        // Console.WriteLine();
+
+        // ExerciciosAritmeticos03 exerciciosAritmeticos03 = new ExerciciosAritmeticos03();
+        // exerciciosAritmeticos03.Executar();
+        // Console.WriteLine();
+
+        // ExerciciosAritmeticos04 exerciciosAritmeticos04 = new ExerciciosAritmeticos04();
+        // exerciciosAritmeticos04.Executar();
+        // Console.WriteLine();
+
+        // ExercicioAritmetico05 exercicioAritmeticos05 = new ExercicioAritmetico05();
+        // exercicioAritmeticos05.Executar();
+        // Console.WriteLine();
+
+
+        ExerciciosOperadoresLogicos exerciciosOperadoresLogicos = new ExerciciosOperadoresLogicos();
+        exerciciosOperadoresLogicos.Executar();
         Console.WriteLine();
 
         //Exercicios Aula 03
-        AlunoCondicionais alunoCondicionais = new AlunoCondicionais();
-        alunoCondicionais.Executar();
-        Console.WriteLine();
+        // AlunoCondicionais alunoCondicionais = new AlunoCondicionais();
+        // alunoCondicionais.Executar();
+        // Console.WriteLine();
 
 
         

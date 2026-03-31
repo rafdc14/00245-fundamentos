@@ -35,6 +35,19 @@ namespace Fundamentos;
             // int → guarda números inteiros
             // bool → guarda verdadeiro (true) ou falso (false)
             Console.WriteLine("📝 Exercício 1: Variáveis básicas");
+                int exercicio1 = 1;
+                string nome = "Ricardo";
+                int idade = 38;
+                bool aprendizDeProgramacao = true;
+                string descricaoDoNivel = "Aprendiz de Programação";
+                Console.WriteLine();
+
+            Console.WriteLine($"Exercício {exercicio1}");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine($"Nome: {nome}");
+            Console.WriteLine($"Idade: {idade}");
+            Console.WriteLine($"Aprendiz de Programação: {aprendizDeProgramacao}");
+            Console.WriteLine($"Nível: {descricaoDoNivel}");
                 
        
  
@@ -44,7 +57,20 @@ namespace Fundamentos;
             // Objetivo: Mostrar que variáveis podem receber novos valores
             // A mesma variável pode guardar um valor diferente mais tarde
             Console.WriteLine("📝 Exercício 2: Reatribuição de valores");
- 
+            Console.WriteLine("--------------------------------");
+                int exercicio2 = 2;
+                int classificacaoDoNivel = 1;
+                string curso = "Programação e Algoritmia";
+                string modulo = "Desenvolver Algoritmos";
+                bool estaPreparado = false;
+                bool precisaDeAprender = true;  
+            Console.WriteLine($"Exercício: {exercicio2}");
+            Console.WriteLine($"Nível: {classificacaoDoNivel} -> {descricaoDoNivel}");
+            Console.WriteLine($"Curso: {curso}");
+            Console.WriteLine($"Módulo: {modulo}");
+            Console.WriteLine($"Está preparado?: {estaPreparado}");
+            Console.WriteLine($"Precisa de aprender?: {precisaDeAprender}");
+            Console.WriteLine();                     
             
  
             // ===================================================
@@ -53,6 +79,8 @@ namespace Fundamentos;
             // Objetivo: Entender que o tipo object pode guardar qualquer coisa
             // É como uma caixa que pode conter diferentes tipos de objetos
             Console.WriteLine("📝 Exercício 3: Flexibilidade do tipo object");
+            Console.WriteLine("-----------------------------");
+ 
  
  
             // ===================================================
@@ -63,6 +91,19 @@ namespace Fundamentos;
             // char → um único caractere (letra)
             // decimal → números decimais com alta precisão (usado para dinheiro)
             Console.WriteLine("📝 Demonstração adicional de tipos");
+            Console.WriteLine("-----------------------------");
+                
+                object valor;
+                valor = 1;
+                Console.WriteLine("Exercício: " + valor);
+                valor = "Que idade tens?";
+                Console.WriteLine("Perguntei: " + valor);
+                valor = 38;
+                Console.WriteLine("Respondeu: " + valor);
+                valor = "Estás a gostar do curso?";
+                Console.WriteLine("Perguntei: " + valor);
+                valor = true;
+                Console.WriteLine("Respondeu: " + valor);
  
            
         }
